@@ -31,3 +31,37 @@ address{
 .navbar-dark {
     background-color: #512DA8;
 }
+.container-fluid{
+    padding:0px;
+}
+
+/*.in .le{
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+     -o-filter: blur(1px);
+     -ms-filter: blur(1px);
+     filter: blur(1px);
+     
+}
+.in .la{
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+     -o-filter: blur(0px);
+     -ms-filter: blur(0px);
+     filter: blur(0px);
+}*/
+
+/* Hide the overlay /
+.la {
+    z-index: -1;
+ }
+ 
+ /* Hover on card, blur the image /
+ .in:hover > .le{
+     filter: blur(5px) grayscale(1);
+ }
+ 
+ /* Hover on card, show the text by increasing z-index /
+ .in:hover > .la {
+   z-index: 1;
+ }*/

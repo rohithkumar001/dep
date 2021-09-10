@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Media } from 'reactstrap';
 import {RESOURCES} from '../shared/resources'
+
 class Help extends Component {
   constructor(props){
     super(props);
