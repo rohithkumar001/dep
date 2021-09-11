@@ -4,6 +4,7 @@ import Help from './HelpComponent';
 import Home from './HomeComponent';
 import Contact from './ContactComponent';
 import Footer from './FooterComponent';
+import Fom from './FormComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 class Main extends Component {
@@ -26,6 +27,12 @@ class Main extends Component {
                 <Contact />
             );
         }
+        const FormPage = () => {
+            return(
+                <Fom />
+            );
+        }
+        
       return (
       <div>
           <Header />
@@ -33,6 +40,7 @@ class Main extends Component {
               <Route path='/home' component={HomePage} />
               <Route path='/help' component={HelpPage} / >
               <Route path='/contactus' component={ContactPage} />
+              <Route path='/aboutus' component={FormPage} />
               <Redirect to="/home" />
           </Switch>
           <Footer />

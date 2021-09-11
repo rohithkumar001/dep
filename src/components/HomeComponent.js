@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
 import {QNA} from '../shared/qna';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody,
-    CardTitle } from 'reactstrap';
 
 class Home extends Component {
     constructor(props){
@@ -11,7 +9,7 @@ class Home extends Component {
           qna: QNA
         };
       }
-  
+      
    
   render()
   {
