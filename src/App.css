@@ -18,7 +18,6 @@
 
 .jumbotron {
     padding:70px 30px 70px 30px;
-    margin:0px auto;
     background: #9575CD ;
     color:floralwhite;
 }
@@ -35,12 +34,12 @@ address{
 .container-fluid{
     padding:0px;
 }
-.la{
+/*.la{
     text-transform: capitalize;
     font-weight: 900;
     color: white;
     background-color: #9f80d682;
-}
+} */
 .a1{
     margin-bottom: 10px;
 }
@@ -50,6 +49,16 @@ address{
 }
 .fr1{
     background-color: #fcf8ff;
+}
+.le{
+    font-size: large;
+}
+.ab{
+    color: floralwhite;
+}
+.g{
+    margin-left: auto;
+    background-color: white;
 }
 /*.in .le{
     -webkit-filter: blur(1px);

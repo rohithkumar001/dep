@@ -12,21 +12,21 @@ export const QNA= [
     {
         ques: 'Can you prevent mental health problems?',
         ans: 'We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious.',
-        img: 'assets/images/image.png'
+        img: 'assets/images/image3.jpeg'
     },
     {
         ques: 'Are there cures for mental health problems?',
         ans: 'It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help.',
-        img: 'assets/images/image2.png'
+        img: 'assets/images/image4.jpeg'
     },
     {
         ques: 'What should I do if I’m worried about a friend or relative?',
         ans: 'This may depend on your relationship with them. Gently encouraging someone to seek appropriate support would be helpful to start with.',
-        img: 'assets/images/image.png'
+        img: 'assets/images/image5.jpeg'
     },
     {
         ques: 'How do I deal with someone telling me what to do?',
         ans: 'Some people may advise you on good evidence of what works with the best of intentions, but it’s important to find out what works best for you.',
-        img: 'assets/images/image2.png'
+        img: 'assets/images/image6.jpeg'
     }
 ]
